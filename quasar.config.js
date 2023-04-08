@@ -23,8 +23,13 @@ module.exports = configure(function (ctx) {
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-webpack/boot-files
     boot: [
+<<<<<<< HEAD
 
       'axios', 'title'
+=======
+      
+      
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
     ],
 
     // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-css
@@ -48,7 +53,11 @@ module.exports = configure(function (ctx) {
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-build
     build: {
+<<<<<<< HEAD
       vueRouterMode: 'history', // available values: 'hash', 'history'
+=======
+      vueRouterMode: 'hash', // available values: 'hash', 'history'
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 
       // transpile: false,
       // publicPath: '/',
@@ -69,9 +78,15 @@ module.exports = configure(function (ctx) {
 
       // https://v2.quasar.dev/quasar-cli-webpack/handling-webpack
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
+<<<<<<< HEAD
 
       chainWebpack (/* chain */) {}
 
+=======
+      
+      chainWebpack (/* chain */) {}
+      
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-devServer
@@ -118,9 +133,15 @@ module.exports = configure(function (ctx) {
       maxAge: 1000 * 60 * 60 * 24 * 30,
         // Tell browser when a file from the server should expire from cache (in ms)
 
+<<<<<<< HEAD
 
       chainWebpackWebserver (/* chain */) {},
 
+=======
+      
+      chainWebpackWebserver (/* chain */) {},
+      
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 
       middlewares: [
         ctx.prod ? 'compression' : '',
@@ -135,9 +156,15 @@ module.exports = configure(function (ctx) {
 
       // for the custom service worker ONLY (/src-pwa/custom-service-worker.[js|ts])
       // if using workbox in InjectManifest mode
+<<<<<<< HEAD
 
       chainWebpackCustomSW (/* chain */) {},
 
+=======
+      
+      chainWebpackCustomSW (/* chain */) {},
+      
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 
       manifest: {
         name: `Quasar App`,
@@ -207,6 +234,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
+<<<<<<< HEAD
         appId: 'quasar-vue'
       },
 
@@ -218,6 +246,19 @@ module.exports = configure(function (ctx) {
 
       chainWebpackPreload (/* chain */) {},
 
+=======
+        appId: 'test'
+      },
+
+      // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
+      
+      chainWebpackMain (/* chain */) {},
+      
+
+      
+      chainWebpackPreload (/* chain */) {},
+      
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
     }
   }
 });

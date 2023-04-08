@@ -12,7 +12,11 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+<<<<<<< HEAD
   name: 'IndexPage',
   title:"Vue를 재미있게 공부해봅시다"
+=======
+  name: 'IndexPage'
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 })
 </script>

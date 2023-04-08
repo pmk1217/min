@@ -12,7 +12,11 @@
         />
 
         <q-toolbar-title>
+<<<<<<< HEAD
           <q-btn to="/" label="Quasar App" class="text-subtitle1" unelevated></q-btn>
+=======
+          Quasar App
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -50,6 +54,7 @@ import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
+<<<<<<< HEAD
 {
     title: 'Vue 기초 문법',
     caption: 'Vue 핵심가이드',
@@ -104,6 +109,50 @@ const linksList = [
  //  icon: 'favorite',
   //  link: 'https://awesome.quasar.dev'
  // }
+=======
+  {
+    title: 'Docs',
+    caption: 'quasar.dev',
+    icon: 'school',
+    link: 'https://quasar.dev'
+  },
+  {
+    title: 'Github',
+    caption: 'github.com/quasarframework',
+    icon: 'code',
+    link: 'https://github.com/quasarframework'
+  },
+  {
+    title: 'Discord Chat Channel',
+    caption: 'chat.quasar.dev',
+    icon: 'chat',
+    link: 'https://chat.quasar.dev'
+  },
+  {
+    title: 'Forum',
+    caption: 'forum.quasar.dev',
+    icon: 'record_voice_over',
+    link: 'https://forum.quasar.dev'
+  },
+  {
+    title: 'Twitter',
+    caption: '@quasarframework',
+    icon: 'rss_feed',
+    link: 'https://twitter.quasar.dev'
+  },
+  {
+    title: 'Facebook',
+    caption: '@QuasarFramework',
+    icon: 'public',
+    link: 'https://facebook.quasar.dev'
+  },
+  {
+    title: 'Quasar Awesome',
+    caption: 'Community Quasar projects',
+    icon: 'favorite',
+    link: 'https://awesome.quasar.dev'
+  }
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 ]
 
 export default defineComponent({

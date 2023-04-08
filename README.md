@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Quasar App (quasar-vue)
+=======
+# Quasar App (test)
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
 
 A Quasar Project
 

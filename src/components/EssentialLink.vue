@@ -2,6 +2,10 @@
   <q-item
     clickable
     tag="a"
+<<<<<<< HEAD
+=======
+    target="_blank"
+>>>>>>> 15ab38defd5a0bd76e9256d1b26353efd34f510d
     :href="link"
   >
     <q-item-section
